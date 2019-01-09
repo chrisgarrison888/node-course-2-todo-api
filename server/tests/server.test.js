@@ -32,7 +32,7 @@ describe('POST /todos', () => {
             });
     });
 
-    it('shoulnt create todo with invalid data',  (done) => {
+    it('shouldnt create todo with invalid data',  (done) => {
         var text = '';
         request(app)
             .post('/todos')
@@ -51,3 +51,4 @@ describe('POST /todos', () => {
             });
     });
 });
+
